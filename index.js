@@ -50,9 +50,9 @@ function compileTS (module) {
   var argv = [
     "node",
     "tsc.js",
-    "--nolib",
-    "--target",
-    options.targetES5 ? "ES5" : "ES3", !! options.moduleKind ? "--module" : "", !! options.moduleKind ? options.moduleKind : "",
+    //"--nolib",
+    //"--target",
+    //options.targetES5 ? "ES5" : "ES3", !! options.moduleKind ? "--module" : "", !! options.moduleKind ? options.moduleKind : "",
     "--outDir",
     tmpDir,
     libPath,
