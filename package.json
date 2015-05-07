@@ -24,7 +24,7 @@
     "url": "git@github.com:eknkc/typescript-require.git"
   },
   "peerDependencies": {
-    "typescript": ">= 0.8.2"
+    "typescript": ">= 0.8.2-"
   },
   "keywords": [
     "typescript",
